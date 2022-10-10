@@ -5,21 +5,18 @@
     grid-template-areas: /*Definicion de las 3 areas o estructuras principales*/
     "encabezado"
     "contenido"
-    "rodapia";
+    "rodapie";
     grid-template-columns: auto; /*Tamaño del las columnas para todas las areas es automatico*/
     grid-template-rows: 50px 100vh auto; /*le damos 50px al tamaño de la fila a el encabezado, al contenido tamano automatico al igual que le roda pie*/
 }
 
 .encabezado {
-    background: #00cc99;
     grid-area: encabezado;
 }
 .contenido {
-    background: #ff8080;
     grid-area: contenido;
 }
 
 .rodapie { 
-    background: #09f;
     grid-area: rodapie;
 }
