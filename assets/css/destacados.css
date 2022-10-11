@@ -57,3 +57,8 @@
     text-align: center;
     padding: .6rem;
 }
+.box {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
