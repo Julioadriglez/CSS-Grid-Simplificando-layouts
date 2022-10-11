@@ -50,3 +50,10 @@
 .destaques__categorias___link {
     color: inherit; /*para quitarle el color morado del link*/
 }
+.destaques__titulo {
+    color: #fdfdfd;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    padding: .6rem;
+}
