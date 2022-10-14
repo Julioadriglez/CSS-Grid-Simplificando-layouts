@@ -21,7 +21,7 @@
     display: grid;
     grid-area: card-base;
     grid-row-gap: .5rem; /*espacio entre cada grid*/
-    grid-template-rows: 
+    grid-template-areas: 
     "card-header"
     "card-descripcion";
     grid-template-rows: 50px auto;
