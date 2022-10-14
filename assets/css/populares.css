@@ -1,5 +1,5 @@
 .populares {
-    padding: 3rem 2rem;
+    padding: 3rem 0;
 }
 .populares__card {
     background: #fdfdfd;
@@ -28,15 +28,15 @@
     padding: .75rem;
 }
 .populares__card___descripcion {
-    display: flex;
     flex-wrap: wrap;
-    grid-area: card-descripcion;
-    padding: 1rem 0rem;
+    color: #333333;
+    line-height: 1.5;
+    padding: 1rem 0;
+    text-align: justify;
 }
 .populares__contenido {
     display: flex;
     flex-wrap: wrap;
-    grid-area: contenido;
     padding: 1rem 0rem;
 
 }
@@ -46,7 +46,7 @@
 }
 .populares__card___data {
     color: #808080;
-    font-size: 0.9rem;
+    font-size: .9rem;
 }
 .populares__card___descripcion {
     color: #333333;
@@ -60,7 +60,7 @@
 .populares__icon{
     margin-right: .25rem;
 }
-.populares__card___header {
+.populares__header {
     border-bottom: 1px solid #dcdcdc;
     display: flex;
     justify-content: space-between;

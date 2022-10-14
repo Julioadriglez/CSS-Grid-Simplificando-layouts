@@ -15,6 +15,7 @@
     align-items: center;
     display: flex;
     padding: 0 2rem;
+    background: #f1f1f1;
 }
 .menu__link {
     color: #333333;
@@ -34,5 +35,6 @@
     text-align: center;
     background: #fdfdfd;
     color: #333333;
-    
+    padding: 1rem;
+
 }
