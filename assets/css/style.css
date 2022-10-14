@@ -31,4 +31,8 @@
 
 .footer { 
     grid-area: footer;
+    text-align: center;
+    background: #fdfdfd;
+    color: #333333;
+    
 }
